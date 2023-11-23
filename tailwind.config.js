@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  important: true,
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
     extend: {
@@ -10,7 +11,6 @@ export default {
         "md+": "900px",
       },
     },
-
     fontFamily: {
       sans: ["Roboto", "sans-serif"],
     },

@@ -38,7 +38,7 @@ const Navbar = () => {
 
       <div
         id="nav"
-        className={`absolute w-full font-semibold text-white transition-all duration-300 ease-in-out `}
+        className={`absolute z-10 w-full font-semibold text-white transition-all duration-300 ease-in-out `}
       >
         <div className="flex justify-between items-center max-w-7xl mx-auto py-5 sm:px-8 px-4">
           <div>

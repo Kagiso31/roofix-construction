@@ -1,3 +1,54 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.swiper-button-prev,
+.swiper-button-next {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  min-width: 70px;
+  min-height: 70px;
+  position: absolute;
+  display: block;
+  z-index: 1000;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  color: white;
+
+  width: 40px;
+  height: 40px;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem;
+  gap: 1.125rem;
+  width: fit-content;
+  border-radius: 1000px;
+}
+
+.swiper-button-prev:hover {
+  flex-direction: row-reverse;
+}
+
+.swiper-button-prev::before,
+.swiper-button-next::before {
+  content: "SLIDE";
+  font-weight: 600;
+  font-size: 0.725rem;
+  letter-spacing: 0.25rem;
+  display: none;
+}
+
+.swiper-button-prev:hover::before,
+.swiper-button-next:hover::before {
+  display: block;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 1.25rem;
+}

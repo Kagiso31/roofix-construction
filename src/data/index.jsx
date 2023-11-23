@@ -1,9 +1,41 @@
+import sliderImg1 from "../assets/home/hero-carousel/slider-11.jpeg";
+import sliderImg2 from "../assets/home/hero-carousel/slider-21.jpeg";
+
 const ICON_SIZE = 18;
 const ICON_COLOR = `fill-[#ccc]`;
 const ICON_COLOR_HOVER = `group-hover:fill-accent`;
+const ICON_COLOR_HOVER_INVERSE = `group-hover:fill-white`;
 const ICON_TRANSITION = "transition-colors duration-500 ease-out";
 
 export const icons = {
+  play: (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 16 16"
+      width="32"
+      className={`fill-accent ${ICON_COLOR_HOVER_INVERSE} ${ICON_TRANSITION}`}
+    >
+      <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+    </svg>
+  ),
+  chevronDoubleRight: (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="16"
+      height="16"
+      fill="#FFF"
+      viewBox="0 0 16 16"
+    >
+      <path
+        fillRule="evenodd"
+        d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"
+      />
+      <path
+        fillRule="evenodd"
+        d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"
+      />
+    </svg>
+  ),
   map: (
     <svg
       className={`${ICON_COLOR}`}
@@ -170,4 +202,25 @@ export const navList = [
   navLinks.projects,
   navLinks.blog,
   navLinks.contact,
+];
+
+// Home
+
+// Hero
+
+export const slides = [
+  {
+    id: 1,
+    title: "Our Best Roofing Services & Consulting",
+    subtitle: "Smart Solution",
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus tempora voluptatem eligendi eius temporibus deserunt.",
+    bgImg: `url(${sliderImg1})`,
+  },
+  {
+    id: 2,
+    title: "Our Best Roofing Services & Consulting",
+    subtitle: "Smart Solution",
+    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate porta dolor, nec facilisis metus tincidunt ut. Sed a sem.",
+    bgImg: `url(${sliderImg2})`,
+  },
 ];
