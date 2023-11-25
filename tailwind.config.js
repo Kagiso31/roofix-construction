@@ -11,7 +11,10 @@ export default {
         "md+": "900px",
       },
       boxShadow: {
-        "feature-icon": "0px 21px 32px 0px rgba(238, 33, 43, 0.33)",
+        "feature-icon": "0px 21px 32px 0px #ee212b54",
+      },
+      backgroundImage: {
+        "gradient-270": "linear-gradient(270deg, var(--tw-gradient-stops))",
       },
     },
     fontFamily: {
