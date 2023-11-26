@@ -1,4 +1,5 @@
-import { socialsList, icons } from "../../data";
+import { socialsList, iconStyles } from "../../data";
+import { Map, Mail } from "../../data/icons";
 import Navbar from "./Navbar";
 
 const Header = () => {
@@ -9,12 +10,16 @@ const Header = () => {
           <div className="flex justify-between items-center">
             <div className="flex gap-10">
               <div className="flex items-center gap-2 relative | before:block before:absolute before:w-0.5 before:h-12 before:rotate-[20deg] before:-right-5 before:bg-[#323232]">
-                {icons.map}
+                <Map
+                  className={`${iconStyles.ICON_COLOR_NEUTRAL} ${iconStyles.NAV_ICON_SIZE}`}
+                />
                 <span>308 Negra Arroyo Lane, New Mexico</span>
               </div>
 
               <div className="flex items-center gap-2">
-                {icons.mail}
+                <Mail
+                  className={`${iconStyles.ICON_COLOR_NEUTRAL} ${iconStyles.NAV_ICON_SIZE}`}
+                />
                 <a className="hover:underline" href="#">
                   info@roofix.com
                 </a>

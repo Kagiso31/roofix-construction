@@ -1,5 +1,5 @@
-import residentialImg from "../../assets/home/features/residential.png";
-import { features, icons } from "../../data";
+import { features } from "../../data";
+import { ChevronRight } from "../../data/icons";
 
 const Features = () => {
   return (
@@ -26,7 +26,10 @@ const FeatureCard = ({ title, body, icon }) => {
         <p className="max-w-[42ch]">{body}</p>
       </div>
       <a href="#" className="flex items-center gap-2 font-semibold uppercase">
-        Read More {icons.chevronRight}
+        Read More{" "}
+        <ChevronRight
+          className={`w-[16px] fill-white group-hover:bg-accent p-0.5 bg-[#d5d5d5] rounded-full transition-all duration-500 ease-out`}
+        />
       </a>
     </article>
   );

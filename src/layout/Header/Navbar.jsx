@@ -1,7 +1,8 @@
-import { navList, icons } from "../../data";
+import { navList } from "../../data";
 import logo from "../../assets/shared/logo/logo-light.png";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { Phone } from "../../data/icons";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -64,7 +65,8 @@ const Navbar = () => {
             </ul>
           </nav>
           <div className="hidden md+:flex md+:items-center md+:gap-1 text-lg">
-            {icons.phone}+980-222-444
+            <Phone className={`w-[16px] fill-white`} />
+            +980-222-444
           </div>
 
           {/* hamburger & mobile menu */}

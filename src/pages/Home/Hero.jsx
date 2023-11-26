@@ -2,8 +2,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { slides } from "../../data";
 import { useState } from "react";
 
-import { icons } from "../../data";
-
 // swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -11,6 +9,7 @@ import "swiper/css/effect-fade";
 
 // swiper modules
 import { Autoplay, EffectFade, Navigation } from "swiper/modules";
+import { ChevronDoubleRight, Play } from "../../data/icons";
 
 const Hero = () => {
   const [showArrows, setShowArrows] = useState(false);
@@ -51,7 +50,12 @@ const Hero = () => {
                       type="button"
                       className="self-start sm:self-auto flex items-center font-bold text-[0.9375rem] uppercase py-3 px-4 rounded bg-accent transition-colors duration-500 ease-out hover:bg-[#d21c1d]"
                     >
-                      Read More <span>{icons.chevronDoubleRight}</span>
+                      Read More{" "}
+                      <span>
+                        <ChevronDoubleRight
+                          className={`w-[16px] fill-white `}
+                        />
+                      </span>
                     </button>
 
                     <div className="flex items-center gap-4">
@@ -59,7 +63,9 @@ const Hero = () => {
                         href="#"
                         className="group w-16 h-16 rounded-full grid place-content-center bg-white transition-colors duration-500 ease-out hover:bg-accent"
                       >
-                        {icons.play}
+                        <Play
+                          className={`w-[32px] fill-accent group-hover:fill-white transition-all duration-500 ease-out`}
+                        />
                       </a>
 
                       <div className="flex flex-col font-semibold tracking-widest">

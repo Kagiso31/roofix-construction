@@ -1,8 +1,9 @@
-import { icons, getToKnowFeatures } from "../../data";
+import { getToKnowFeatures } from "../../data";
 import yearsBg from "../../assets/home/get-to-know/years-bg2.png";
 import getToKnowImg1 from "../../assets/home/get-to-know/banner-1.jpg";
 import getToKnowImg2 from "../../assets/home/get-to-know/banner-2.jpg";
 import getToKnowImg3 from "../../assets/home/get-to-know/banner-3.jpg";
+import { Phone } from "../../data/icons";
 
 const GetToKnow = () => {
   return (
@@ -34,7 +35,7 @@ const GetToKnow = () => {
           <div className="flex justify-between flex-col items-center gap-8 lg:gap-0 sm:flex-row">
             <div className="flex items-center gap-4">
               <div className="flex-shrink-0 w-[54px] h-[54px] grid place-content-center rounded-full border border-[#3E3E3E]">
-                {icons.phoneDark}
+                <Phone className={`w-[26px] fill-black`} />
               </div>
 
               <div className="space-y-1">
