@@ -1,6 +1,7 @@
 import Hero from "./Hero";
 import Features from "./Features";
 import GetToKnow from "./GetToKnow";
+import Services from "./Services";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Hero />
       <Features />
       <GetToKnow />
+      <Services />
     </main>
   );
 };

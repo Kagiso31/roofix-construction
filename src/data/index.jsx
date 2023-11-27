@@ -2,6 +2,13 @@
 import sliderImg1 from "../assets/home/hero-carousel/slider-11.jpeg";
 import sliderImg2 from "../assets/home/hero-carousel/slider-21.jpeg";
 
+import service1 from "../assets/home/services/roof_1.jpg";
+import service2 from "../assets/home/services/roof_2.jpg";
+import service3 from "../assets/home/services/roof_3.jpg";
+import service4 from "../assets/home/services/roof_4.jpg";
+import service5 from "../assets/home/services/roof_5.jpg";
+import service6 from "../assets/home/services/roof_6.jpg";
+
 // Icons
 import {
   Roof1,
@@ -202,5 +209,128 @@ export const getToKnowFeatures = [
         className={`${iconStyles.ICON_COLOR_HOVER_INVERSE} ${iconStyles.ICON_COLOR_ACCENT} ${iconStyles.ICON_TRANSITION} w-[40px] h-[40px]`}
       />
     ),
+  },
+];
+
+// Services
+const servicesIconStyles = "w-[48px] fill-white";
+const servicesBgStyles = "fill-[#f3f3f3] w-[200px]";
+export const servicesTabsConfig = [
+  {
+    id: 1,
+    label: (
+      <span>
+        Roof <br />
+        Installation
+      </span>
+    ),
+    title: "Roof Installation",
+    body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime distinctio provident tenetur iusto aliquam ut, illum, consectetur eum blanditiis praesentium reiciendis optio quis.",
+    features: [
+      "Modified Roofing",
+      "Single Ply Roofing",
+      "Quality Work",
+      "100% Satisfied Reviews",
+    ],
+    icon: <Roof1 className={`${servicesIconStyles}`} />,
+    img: service1,
+    bgImg: <Roof1 className={`${servicesBgStyles}`} />,
+  },
+  {
+    id: 2,
+    label: (
+      <span>
+        Roof <br />
+        Siding Install
+      </span>
+    ),
+    title: "Roof Siding Install",
+    body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quia adipisci quo voluptatibus expedita alias quidem, animi temporibus pariatur exercitationem ea sapiente corrupti.",
+    features: [
+      "Modified Roofing",
+      "Single Ply Roofing",
+      "Quality Work",
+      "100% Satisfied Reviews",
+    ],
+    icon: <Roof2 className={`${servicesIconStyles}`} />,
+    img: service2,
+    bgImg: <Roof2 className={`${servicesBgStyles}`} />,
+  },
+  {
+    id: 3,
+    label: (
+      <span>
+        Roof <br />
+        Frame Design
+      </span>
+    ),
+    title: "Roof Frame Design",
+    body: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis dolore porro, ex iusto sapiente maiores voluptatem accusantium fugiat nesciunt enim unde delectus quod!",
+    features: [
+      "Modified Roofing",
+      "Single Ply Roofing",
+      "Quality Work",
+      "100% Satisfied Reviews",
+    ],
+    icon: <Roof3 className={`${servicesIconStyles}`} />,
+    img: service3,
+    bgImg: <Roof3 className={`${servicesBgStyles}`} />,
+  },
+  {
+    id: 4,
+    label: (
+      <span>
+        Roof <br /> Damage Repair
+      </span>
+    ),
+    title: "Roof Damage Repair",
+    body: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit possimus consectetur ex odit similique reiciendis, aspernatur tempora at dolores nobis, ea consequuntur velit.",
+    features: [
+      "Modified Roofing",
+      "Single Ply Roofing",
+      "Quality Work",
+      "100% Satisfied Reviews",
+    ],
+    icon: <Roof4 className={`${servicesIconStyles}`} />,
+    img: service4,
+    bgImg: <Roof4 className={`${servicesBgStyles}`} />,
+  },
+  {
+    id: 5,
+    label: (
+      <span>
+        Roof <br /> Cornering
+      </span>
+    ),
+    title: "Roof Cornering",
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla deleniti, hic repellendus animi, ea praesentium, quia consequatur eaque tempora illum quod veniam corporis.",
+    features: [
+      "Modified Roofing",
+      "Single Ply Roofing",
+      "Quality Work",
+      "100% Satisfied Reviews",
+    ],
+    icon: <Roof5 className={`${servicesIconStyles}`} />,
+    img: service5,
+    bgImg: <Roof5 className={`${servicesBgStyles}`} />,
+  },
+  {
+    id: 6,
+    label: (
+      <span>
+        Roof <br /> Layer Fixing
+      </span>
+    ),
+    title: "Roof Layer Fixing",
+    body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sint accusantium, provident, quibusdam iure voluptatum odio minus ipsa explicabo dicta at vel quidem.",
+    features: [
+      "Modified Roofing",
+      "Single Ply Roofing",
+      "Quality Work",
+      "100% Satisfied Reviews",
+    ],
+    icon: <Roof6 className={`${servicesIconStyles}`} />,
+    img: service6,
+    bgImg: <Roof6 className={`${servicesBgStyles}`} />,
   },
 ];
