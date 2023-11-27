@@ -15,6 +15,9 @@ export default {
       },
       backgroundImage: {
         "gradient-270": "linear-gradient(270deg, var(--tw-gradient-stops))",
+        statistics: `url('${
+          "roofix-construction" + "../../assets/home/statistics/statistics.jpg"
+        }')`,
       },
     },
     fontFamily: {

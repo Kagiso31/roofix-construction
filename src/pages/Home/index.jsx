@@ -3,6 +3,7 @@ import Features from "./Features";
 import GetToKnow from "./GetToKnow";
 import Services from "./Services";
 import WhyChooseUs from "./WhyChooseUs";
+import Statistics from "./Statistics";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <GetToKnow />
       <Services />
       <WhyChooseUs />
+      <Statistics />
     </main>
   );
 };
