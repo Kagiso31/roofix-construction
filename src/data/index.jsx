@@ -334,3 +334,39 @@ export const servicesTabsConfig = [
     bgImg: <Roof6 className={`${servicesBgStyles}`} />,
   },
 ];
+
+// Why Choose Us
+export const whyChooseUsFeatures = [
+  {
+    id: 1,
+    title: "Wooden Frame",
+    body: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
+    icon: (
+      <Roof7 className={`${iconStyles.ICON_COLOR_ACCENT} w-[60px] h-[60px]`} />
+    ),
+  },
+  {
+    id: 2,
+    title: "Sliding Layout",
+    body: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
+    icon: (
+      <Roof8 className={`${iconStyles.ICON_COLOR_ACCENT} w-[60px] h-[60px]`} />
+    ),
+  },
+  {
+    id: 3,
+    title: "Eco Insulation",
+    body: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
+    icon: (
+      <Roof6 className={`${iconStyles.ICON_COLOR_ACCENT} w-[60px] h-[60px]`} />
+    ),
+  },
+  {
+    id: 4,
+    title: "New Roofing",
+    body: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
+    icon: (
+      <Roof2 className={`${iconStyles.ICON_COLOR_ACCENT} w-[60px] h-[60px]`} />
+    ),
+  },
+];
