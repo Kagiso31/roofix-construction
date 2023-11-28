@@ -9,6 +9,13 @@ import service4 from "../assets/home/services/roof_4.jpg";
 import service5 from "../assets/home/services/roof_5.jpg";
 import service6 from "../assets/home/services/roof_6.jpg";
 
+import project1 from "../assets/home/projects/roof-construction-residential.jpg";
+import project2 from "../assets/home/projects/roof-construction-commercial.jpg";
+import project3 from "../assets/home/projects/modern-roofing.jpg";
+import project4 from "../assets/home/projects/renovation-roof.jpg";
+import project5 from "../assets/home/projects/classic-roofing.jpg";
+import project6 from "../assets/home/projects/repair-roof.jpg";
+
 // Icons
 import {
   Roof1,
@@ -368,5 +375,74 @@ export const whyChooseUsFeatures = [
     icon: (
       <Roof2 className={`${iconStyles.ICON_COLOR_ACCENT} w-[60px] h-[60px]`} />
     ),
+  },
+];
+
+// Projects
+export const projectsTabs = [
+  {
+    id: 1,
+    title: "All Projects",
+  },
+  {
+    id: 2,
+    title: "Factory",
+  },
+  {
+    id: 3,
+    title: "Residential",
+  },
+  {
+    id: 4,
+    title: "Commercial",
+  },
+  {
+    id: 5,
+    title: "Interior",
+  },
+];
+
+export const projects = [
+  {
+    id: 1,
+    title: "Roof Construction",
+    tags: ["Factory", "Residential"],
+    img: project1,
+    link: "#",
+  },
+  {
+    id: 2,
+    title: "Roof Construction",
+    tags: ["Commercial", "Residential"],
+    img: project2,
+    link: "#",
+  },
+  {
+    id: 3,
+    title: "Modern Roofing",
+    tags: ["Commercial", "Residential"],
+    img: project3,
+    link: "#",
+  },
+  {
+    id: 4,
+    title: "Renovation Roof",
+    tags: ["Commercial", "Factory", "Residential"],
+    img: project4,
+    link: "#",
+  },
+  {
+    id: 5,
+    title: "Classic Roofing",
+    tags: ["Interior", "Residential"],
+    img: project5,
+    link: "#",
+  },
+  {
+    id: 6,
+    title: "Repair Roof",
+    tags: ["Interior", "Residential"],
+    img: project6,
+    link: "#",
   },
 ];

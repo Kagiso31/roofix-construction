@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  important: true,
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
     extend: {
@@ -18,6 +17,9 @@ export default {
         statistics: `url('${
           "roofix-construction" + "../../assets/home/statistics/statistics.jpg"
         }')`,
+      },
+      gridTemplateColumns: {
+        "auto-fit": "repeat(auto-fit, minmax(370px, 1fr))",
       },
     },
     fontFamily: {
