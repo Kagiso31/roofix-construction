@@ -17,9 +17,19 @@ export default {
         statistics: `url('${
           "roofix-construction" + "../../assets/home/statistics/statistics.jpg"
         }')`,
+        achievement: `url('${
+          "roofix-construction" +
+          "../../assets/home/achievement/achievement-banner.jpg"
+        }')`,
+        "achievement-spin": `url('${
+          "roofix-construction" + "../../assets/home/achievement/spin.png"
+        }')`,
       },
       gridTemplateColumns: {
         "auto-fit": "repeat(auto-fit, minmax(370px, 1fr))",
+      },
+      animation: {
+        spin: "spin 10s linear infinite",
       },
     },
     fontFamily: {

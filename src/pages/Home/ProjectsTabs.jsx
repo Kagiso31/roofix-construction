@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { projects, projectsTabs } from "../../data";
 
 const ProjectsTabs = () => {
@@ -10,10 +10,6 @@ const ProjectsTabs = () => {
     setSelectedIndex(index);
     setActiveTab(tag);
   };
-
-  useEffect(() => {
-    console.log(activeTab);
-  }, [activeTab]);
 
   return (
     <div className="space-y-10">
