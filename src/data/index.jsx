@@ -568,3 +568,64 @@ export const blogs = [
     authorLink: "#",
   },
 ];
+
+export const footerLinks = [
+  {
+    id: 1,
+    title: "Damage Roofing",
+    link: "#",
+  },
+  {
+    id: 2,
+    title: "Siding Corner",
+    link: "#",
+  },
+  {
+    id: 3,
+    title: "Roof Repair",
+    link: "#",
+  },
+  {
+    id: 4,
+    title: "Roof Installation",
+    link: "#",
+  },
+  {
+    id: 5,
+    title: "Roof Renovation",
+    link: "#",
+  },
+  {
+    id: 6,
+    title: "Roof Animation",
+    link: "#",
+  },
+];
+
+export const workingHours = [
+  {
+    id: 1,
+    day: "Monday",
+    timePeriod: "10.00AM - 4.00PM",
+  },
+  {
+    id: 2,
+    day: "Tuesday",
+    timePeriod: "10.00AM - 4.00PM",
+  },
+  {
+    id: 3,
+    day: "Wednesday",
+    timePeriod: "10.00AM - 4.00PM",
+  },
+  {
+    id: 4,
+    day: "Thursday",
+    timePeriod: "10.00AM - 4.00PM",
+  },
+  {
+    id: 5,
+    day: "Friday",
+    timePeriod: "Closed",
+  },
+];
