@@ -9,7 +9,7 @@ const GetToKnow = () => {
   return (
     <section className="py-28 px-8 xl:px-0">
       <div className="max-w-[1200px] mx-auto grid xl:grid-cols-2 gap-12">
-        <div className="md+:ps-4 md+:pe-12 flex flex-col gap-8 text-center sm:text-left">
+        <div className="md+:ps-4 md+:pe-12 flex flex-col gap-8">
           <div className="space-y-2">
             <strong className="relative text-sm uppercase tracking-widest text-[#707173] ps-8 before:absolute before:top-1/3 before:left-0 before:h-[3px] before:w-6 before:bg-accent">
               Get To Know
@@ -83,7 +83,7 @@ const GetToKnow = () => {
 
 const GetToKnowFeatureCard = ({ title, body, icon }) => {
   return (
-    <div className="group flex items-center gap-4 text-center isolate flex-col sm:items-start sm:flex-row sm:text-left">
+    <div className="group flex gap-4 isolate flex-col sm:flex-row">
       <div className="flex-shrink-0 bg-[#ee212b1a] group-hover:bg-accent rounded-full w-[70px] h-[70px] p-2 grid place-content-center transition-all duration-500 ease-out relative before:absolute before:bg-white before:w-full before:h-full before:rounded-full before:-z-10 before:opacity-100">
         {icon}
       </div>
