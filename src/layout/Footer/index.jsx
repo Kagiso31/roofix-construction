@@ -13,7 +13,7 @@ const Footer = () => {
           <div>
             <img className="w-48 aspect-[489 / 121]" src={logo} />
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 flex-wrap">
             <div className="grid place-content-center w-12 h-12 rounded-full bg-accent">
               <Phone className={`w-4 h-4 fill-white`} />
             </div>
@@ -23,7 +23,7 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <ul className="flex items-center gap-1">
+            <ul className="flex items-center gap-1 flex-wrap">
               {socialsList.map((social) => (
                 <li title={social.title} key={social.id}>
                   <a
