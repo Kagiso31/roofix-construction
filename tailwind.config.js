@@ -24,6 +24,10 @@ export default {
         "achievement-spin": `url('${
           "roofix-construction" + "../../assets/home/achievement/spin.png"
         }')`,
+        testimonials: `url('${
+          "roofix-construction" +
+          "../../assets/home/testimonials/testimonials-bg.jpg"
+        }')`,
       },
       gridTemplateColumns: {
         "auto-fit": "repeat(auto-fit, minmax(370px, 1fr))",

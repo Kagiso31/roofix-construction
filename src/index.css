@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.swiper-button-prev,
-.swiper-button-next {
+/* hero slider arrows */
+.hero .swiper-button-prev,
+.hero .swiper-button-next {
   cursor: pointer;
   background: rgba(0, 0, 0, 0.5);
   min-width: 70px;
@@ -20,8 +21,8 @@
   height: 40px;
 }
 
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
+.hero .swiper-button-prev:hover,
+.hero .swiper-button-next:hover {
   display: flex;
   align-items: center;
   padding: 1rem 1rem;
@@ -30,12 +31,12 @@
   border-radius: 1000px;
 }
 
-.swiper-button-prev:hover {
+.hero .swiper-button-prev:hover {
   flex-direction: row-reverse;
 }
 
-.swiper-button-prev::before,
-.swiper-button-next::before {
+.hero .swiper-button-prev::before,
+.hero .swiper-button-next::before {
   content: "SLIDE";
   font-weight: 600;
   font-size: 0.725rem;
@@ -43,14 +44,56 @@
   display: none;
 }
 
-.swiper-button-prev:hover::before,
-.swiper-button-next:hover::before {
+.hero .swiper-button-prev:hover::before,
+.hero .swiper-button-next:hover::before {
   display: block;
 }
 
-.swiper-button-prev::after,
-.swiper-button-next::after {
+.hero .swiper-button-prev::after,
+.hero .swiper-button-next::after {
   font-size: 1.25rem;
+}
+
+/* testimonials slider arrows */
+
+.testimonials .swiper-button-prev,
+.testimonials .swiper-button-next {
+  cursor: pointer;
+  background: #393738;
+  min-width: 60px;
+  min-height: 60px;
+  position: absolute;
+  z-index: 1000;
+  border-radius: 50%;
+  place-content: center;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  width: 40px;
+  height: 40px;
+  display: none !important;
+}
+
+@media (min-width: 640px) {
+  .testimonials .swiper-button-prev,
+  .testimonials .swiper-button-next {
+    display: grid !important;
+  }
+}
+
+.testimonials .swiper-button-prev:hover,
+.testimonials .swiper-button-next:hover {
+  background-color: #ee212b;
+}
+.testimonials .swiper-button-prev::after,
+.testimonials .swiper-button-next::after {
+  font-size: 0;
+}
+
+.testimonials .swiper-button-prev::after {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='white' class='bi bi-arrow-left' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8'/%3E%3C/svg%3E");
+}
+.testimonials .swiper-button-next::after {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='white' class='bi bi-arrow-right' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8'/%3E%3C/svg%3E");
 }
 
 @keyframes waves {

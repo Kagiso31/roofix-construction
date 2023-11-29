@@ -20,6 +20,10 @@ import pricing1 from "../assets/home/pricing-plans/price_bg1.jpg";
 import pricing2 from "../assets/home/pricing-plans/price_bg2.jpg";
 import pricing3 from "../assets/home/pricing-plans/price_bg3.jpg";
 
+import testimonial1 from "../assets/home/testimonials/testimonial-1.jpg";
+import testimonial2 from "../assets/home/testimonials/testimonial-2.jpg";
+import testimonial3 from "../assets/home/testimonials/testimonial-3.jpg";
+
 // Icons
 import {
   Roof1,
@@ -497,5 +501,33 @@ export const pricingPlans = [
       "Video surveillance system support",
       "Staff training",
     ],
+  },
+];
+
+// testimonials
+export const testimonials = [
+  {
+    id: 1,
+    name: "Hailey Cooper",
+    profession: "Artist",
+    comment:
+      "“ Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolor laboriosam, nesciunt odio corporis at ab amet inventore libero repellendus cumque, dolores atque iure numquam non similique rerum aut quaerat repudiandae animi! ”",
+    img: testimonial1,
+  },
+  {
+    id: 2,
+    name: "Miles Morales",
+    profession: "Student",
+    comment:
+      "“ Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolor laboriosam, nesciunt odio corporis at ab amet inventore libero repellendus cumque, dolores atque iure numquam non similique rerum aut quaerat repudiandae animi! ”",
+    img: testimonial2,
+  },
+  {
+    id: 3,
+    name: "Michelle Jones",
+    profession: "Model",
+    comment:
+      "“ Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolor laboriosam, nesciunt odio corporis at ab amet inventore libero repellendus cumque, dolores atque iure numquam non similique rerum aut quaerat repudiandae animi! ”",
+    img: testimonial3,
   },
 ];

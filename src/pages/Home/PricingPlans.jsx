@@ -1,7 +1,7 @@
 import { pricingPlans } from "../../data";
 import { Checkmark } from "../../data/icons";
 
-const PricingPlan = () => {
+const PricingPlans = () => {
   return (
     <section className="py-28 px-8 xl:px-0 bg-[#F8F8F8]">
       <div className="flex flex-col gap-10 max-w-[1200px] mx-auto">
@@ -61,4 +61,4 @@ const PricingPlanCard = ({ title, price, img, features }) => {
   );
 };
 
-export default PricingPlan;
+export default PricingPlans;

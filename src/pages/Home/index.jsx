@@ -6,7 +6,8 @@ import WhyChooseUs from "./WhyChooseUs";
 import Statistics from "./Statistics";
 import Projects from "./Projects";
 import Achievement from "./Achievement";
-import PricingPlan from "./PricingPlan";
+import PricingPlans from "./PricingPlans";
+import Testimonials from "./Testimonials";
 
 const Home = () => {
   return (
@@ -19,7 +20,8 @@ const Home = () => {
       <Statistics />
       <Projects />
       <Achievement />
-      <PricingPlan />
+      <PricingPlans />
+      <Testimonials />
     </main>
   );
 };

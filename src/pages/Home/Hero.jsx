@@ -14,7 +14,7 @@ import { ChevronDoubleRight, Play } from "../../data/icons";
 const Hero = () => {
   const [showArrows, setShowArrows] = useState(false);
   return (
-    <>
+    <section className="hero">
       <div
         onMouseEnter={() => setShowArrows(true)}
         onMouseLeave={() => setShowArrows(false)}
@@ -80,7 +80,7 @@ const Hero = () => {
           ))}
         </Swiper>
       </div>
-    </>
+    </section>
   );
 };
 
