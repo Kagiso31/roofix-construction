@@ -16,6 +16,10 @@ import project4 from "../assets/home/projects/renovation-roof.jpg";
 import project5 from "../assets/home/projects/classic-roofing.jpg";
 import project6 from "../assets/home/projects/repair-roof.jpg";
 
+import pricing1 from "../assets/home/pricing-plans/price_bg1.jpg";
+import pricing2 from "../assets/home/pricing-plans/price_bg2.jpg";
+import pricing3 from "../assets/home/pricing-plans/price_bg3.jpg";
+
 // Icons
 import {
   Roof1,
@@ -444,5 +448,54 @@ export const projects = [
     tags: ["Interior", "Residential"],
     img: project6,
     link: "#",
+  },
+];
+
+// Pricing Plan
+export const pricingPlans = [
+  {
+    id: 1,
+    title: "Residential",
+    price: 199,
+    img: pricing1,
+    features: [
+      "Maintenance of fences",
+      "Gate maintenance",
+      "Checking electrical wiring",
+      "Maintenance of barriers",
+      "Configuring access systems",
+      "Video surveillance system support",
+      "Staff training",
+    ],
+  },
+  {
+    id: 2,
+    title: "Commercial",
+    price: 299,
+    img: pricing2,
+    features: [
+      "Maintenance of fences",
+      "Gate maintenance",
+      "Checking electrical wiring",
+      "Maintenance of barriers",
+      "Configuring access systems",
+      "Video surveillance system support",
+      "Staff training",
+    ],
+  },
+  {
+    id: 3,
+    title: "Industrial",
+    price: 399,
+    img: pricing3,
+    features: [
+      "Maintenance of fences",
+      "Gate maintenance",
+      "Checking electrical wiring",
+      "Maintenance of barriers",
+      "Configuring access systems",
+      "Video surveillance system support",
+      "Staff training",
+    ],
   },
 ];

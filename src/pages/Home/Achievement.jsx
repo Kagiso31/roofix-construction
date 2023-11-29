@@ -3,7 +3,7 @@ import { ChevronDoubleRight, Play } from "../../data/icons";
 const Achievement = () => {
   return (
     <section className="isolate relative text-white grid place-items-center py-20 bg-achievement bg-no-repeat bg-cover bg-fixed before:absolute before:inset-0 before:bg-black before:opacity-50 md+:py-0 md+:h-[500px]">
-      <div className="relative z-10 text-center md+:text-left grid md+:grid-cols-2 gap-20 md+:gap-10 max-w-[1200px] mx-auto px-8 xl:px-0 items-center justify-items-center">
+      <div className="relative z-10 text-center md+:text-left grid md+:grid-cols-2 gap-20 md+:gap-10 max-w-[1200px] mx-auto px-2 sm:px-8 xl:px-0 items-center justify-items-center">
         <div className="flex flex-col gap-10 md+:gap-6">
           <h2 className="font-extrabold text-4xl">
             Top Rated Roofing Construction Company Since 1992
