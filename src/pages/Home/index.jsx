@@ -8,6 +8,7 @@ import Projects from "./Projects";
 import Achievement from "./Achievement";
 import PricingPlans from "./PricingPlans";
 import Testimonials from "./Testimonials";
+import Blogs from "./Blogs";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <Achievement />
       <PricingPlans />
       <Testimonials />
+      <Blogs />
     </main>
   );
 };

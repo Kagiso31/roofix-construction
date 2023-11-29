@@ -24,6 +24,10 @@ import testimonial1 from "../assets/home/testimonials/testimonial-1.jpg";
 import testimonial2 from "../assets/home/testimonials/testimonial-2.jpg";
 import testimonial3 from "../assets/home/testimonials/testimonial-3.jpg";
 
+import blog1 from "../assets/home/blogs/blog1.jpg";
+import blog2 from "../assets/home/blogs/blog2.jpg";
+import blog3 from "../assets/home/blogs/blog3.jpg";
+
 // Icons
 import {
   Roof1,
@@ -529,5 +533,38 @@ export const testimonials = [
     comment:
       "“ Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolor laboriosam, nesciunt odio corporis at ab amet inventore libero repellendus cumque, dolores atque iure numquam non similique rerum aut quaerat repudiandae animi! ”",
     img: testimonial3,
+  },
+];
+
+export const blogs = [
+  {
+    id: 1,
+    img: blog1,
+    title: "10 Roof Facts You Should Know",
+    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
+    date: "18 November 2020",
+    author: "RadiusTheme",
+    postLink: "#",
+    authorLink: "#",
+  },
+  {
+    id: 2,
+    img: blog2,
+    title: "Best Roof Designs For Your Home",
+    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
+    date: "13 November 2020",
+    author: "RadiusTheme",
+    postLink: "#",
+    authorLink: "#",
+  },
+  {
+    id: 3,
+    img: blog3,
+    title: "Best Roof Designs For Your Home",
+    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
+    date: "13 November 2020",
+    author: "RadiusTheme",
+    postLink: "#",
+    authorLink: "#",
   },
 ];
