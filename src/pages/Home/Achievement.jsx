@@ -28,7 +28,7 @@ const Achievement = () => {
           <div className="absolute w-full h-full bg-achievement-spin bg-no-repeat bg-cover bg-center rounded-full animate-spin"></div>
           <a
             href="https://www.youtube.com"
-            className="group grid place-content-center w-20 h-20 bg-white rounded-full transition-all duration-all ease-in-out hover:bg-accent "
+            className="group grid place-content-center z-10 w-20 h-20 bg-white rounded-full transition-all duration-all ease-in-out hover:bg-accent"
           >
             <Play className="fill-accent w-10 h-10 transition-all duration-all ease-in-out group-hover:fill-white" />
           </a>

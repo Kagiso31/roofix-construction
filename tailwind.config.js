@@ -28,6 +28,9 @@ export default {
           "roofix-construction" +
           "../../assets/home/testimonials/testimonials-bg.jpg"
         }')`,
+        "about-hero": `url('${
+          "roofix-construction" + "../../assets/about/banner.jpg"
+        }')`,
       },
       gridTemplateColumns: {
         "auto-fit": "repeat(auto-fit, minmax(370px, 1fr))",
