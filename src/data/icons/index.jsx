@@ -10,7 +10,15 @@ import {
   Profile,
 } from "./misc";
 import { Roof1, Roof2, Roof3, Roof4, Roof5, Roof6, Roof7, Roof8 } from "./roof";
-import { Facebook, Instagram, Pinterest, Twitter, YouTube } from "./socials";
+import {
+  Facebook,
+  Instagram,
+  Pinterest,
+  Twitter,
+  YouTube,
+  Linkedin,
+  Share,
+} from "./socials";
 
 export {
   ChevronRight,
@@ -35,4 +43,6 @@ export {
   Pinterest,
   Twitter,
   YouTube,
+  Linkedin,
+  Share,
 };

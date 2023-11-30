@@ -40,6 +40,7 @@ export default {
       },
       gridTemplateColumns: {
         "auto-fit": "repeat(auto-fit, minmax(370px, 1fr))",
+        "auto-fit-team-cards": "repeat(auto-fit, minmax(300px, 1fr))",
       },
       animation: {
         spin: "spin 10s linear infinite",

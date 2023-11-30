@@ -34,6 +34,10 @@ import history2008 from "../assets/about/history/2008.jpg";
 import history2015 from "../assets/about/history/2015.jpg";
 import history2023 from "../assets/about/history/2023.jpg";
 
+import team1 from "../assets/about/team/team1.jpg";
+import team2 from "../assets/about/team/team2.jpg";
+import team3 from "../assets/about/team/team3.jpg";
+
 // Icons
 import {
   Roof1,
@@ -49,8 +53,7 @@ import {
   Pinterest,
   Instagram,
   YouTube,
-  Map,
-  Mail,
+  Linkedin,
 } from "./icons";
 
 export const iconStyles = {
@@ -110,6 +113,16 @@ const socials = {
     link: "https://www.youtube.com",
     icon: (
       <YouTube
+        className={`${iconStyles.ICON_TRANSITION} ${iconStyles.ICON_COLOR_NEUTRAL} ${iconStyles.ICON_COLOR_HOVER} ${iconStyles.NAV_ICON_SIZE}`}
+      />
+    ),
+  },
+  linkedin: {
+    id: 6,
+    title: "Linkedin",
+    link: "https://www.linkedin.com",
+    icon: (
+      <Linkedin
         className={`${iconStyles.ICON_TRANSITION} ${iconStyles.ICON_COLOR_NEUTRAL} ${iconStyles.ICON_COLOR_HOVER} ${iconStyles.NAV_ICON_SIZE}`}
       />
     ),
@@ -703,5 +716,95 @@ export const historyTabsConfig = [
       "Quick Response",
     ],
     img: history2023,
+  },
+];
+
+export const teamMembers = [
+  {
+    id: 1,
+    name: "Elizabeth Allan",
+    role: "CEO, Roofix",
+    img: team1,
+    href: "#",
+    socials: [
+      {
+        ...socials.facebook,
+        id: 1,
+        link: "https://www.facebook.com/?—lizallan—?",
+      },
+      {
+        ...socials.twitter,
+        id: 2,
+        link: "https://www.twitter.com/?—lizallan—?",
+      },
+      {
+        ...socials.linkedin,
+        id: 3,
+        link: "https://www.linkedin.com/?—lizallan—?",
+      },
+      {
+        ...socials.instagram,
+        id: 4,
+        link: "https://www.instagram.com/?—lizallan—?",
+      },
+    ],
+  },
+  {
+    id: 2,
+    name: "Benjamin Reilly",
+    role: "COO, Roofix",
+    img: team2,
+    href: "#",
+    socials: [
+      {
+        ...socials.facebook,
+        id: 1,
+        link: "https://www.facebook.com/?—benreilly—?",
+      },
+      {
+        ...socials.twitter,
+        id: 2,
+        link: "https://www.twitter.com/?—benreilly—?",
+      },
+      {
+        ...socials.linkedin,
+        id: 3,
+        link: "https://www.linkedin.com/?—benreilly—?",
+      },
+      {
+        ...socials.instagram,
+        id: 4,
+        link: "https://www.instagram.com/?—benreilly—?",
+      },
+    ],
+  },
+  {
+    id: 3,
+    name: "Cindy Moon",
+    role: "CFO, Roofix",
+    img: team3,
+    href: "#",
+    socials: [
+      {
+        ...socials.facebook,
+        id: 1,
+        link: "https://www.facebook.com/?—cindymoon—?",
+      },
+      {
+        ...socials.twitter,
+        id: 2,
+        link: "https://www.twitter.com/?—cindymoon—?",
+      },
+      {
+        ...socials.linkedin,
+        id: 3,
+        link: "https://www.linkedin.com/?—cindymoon—?",
+      },
+      {
+        ...socials.instagram,
+        id: 4,
+        link: "https://www.instagram.com/?—cindymoon—?",
+      },
+    ],
   },
 ];
