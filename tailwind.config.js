@@ -31,6 +31,12 @@ export default {
         "about-hero": `url('${
           "roofix-construction" + "../../assets/about/banner.jpg"
         }')`,
+        "about-history": `url('${
+          "roofix-construction" + "../../assets/about/history/history-bg.png"
+        }')`,
+        "about-timeline": `url('${
+          "roofix-construction" + "../../assets/about/history/timeline.png"
+        }')`,
       },
       gridTemplateColumns: {
         "auto-fit": "repeat(auto-fit, minmax(370px, 1fr))",

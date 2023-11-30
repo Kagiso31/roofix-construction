@@ -28,6 +28,12 @@ import blog1 from "../assets/home/blogs/blog1.jpg";
 import blog2 from "../assets/home/blogs/blog2.jpg";
 import blog3 from "../assets/home/blogs/blog3.jpg";
 
+import history1988 from "../assets/about/history/1988.jpg";
+import history2000 from "../assets/about/history/2000.jpg";
+import history2008 from "../assets/about/history/2008.jpg";
+import history2015 from "../assets/about/history/2015.jpg";
+import history2023 from "../assets/about/history/2023.jpg";
+
 // Icons
 import {
   Roof1,
@@ -627,5 +633,75 @@ export const workingHours = [
     id: 5,
     day: "Friday",
     timePeriod: "Closed",
+  },
+];
+
+// About
+
+export const historyTabsConfig = [
+  {
+    id: 1,
+    label: "1988",
+    title: "Roofing History (1988)",
+    body: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, magni aliquam impedit porro facilis nisi corrupti ut, ullam voluptate architecto pariatur, deleniti laborum! Nesciunt architecto laudantium dicta excepturi repellat voluptatem.",
+    features: [
+      "Technology Management",
+      "Roofing Solutions",
+      "Modern Worker",
+      "Quick Response",
+    ],
+    img: history1988,
+  },
+  {
+    id: 2,
+    label: "2000",
+    title: "Roofing History (2000)",
+    body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, sint incidunt fugit obcaecati, eum ipsam consectetur quisquam voluptatibus repellat dolor hic quis qui unde, voluptates provident minima impedit doloribus nesciunt!",
+    features: [
+      "Technology Management",
+      "Roofing Solutions",
+      "Modern Worker",
+      "Quick Response",
+    ],
+    img: history2000,
+  },
+  {
+    id: 3,
+    label: "2008",
+    title: "Roofing History (2008)",
+    body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ratione alias quam ullam corporis, eaque, harum sed nisi ut amet dolores, numquam recusandae consectetur quas cum quod quasi. Voluptatibus, nam.",
+    features: [
+      "Technology Management",
+      "Roofing Solutions",
+      "Modern Worker",
+      "Quick Response",
+    ],
+    img: history2008,
+  },
+  {
+    id: 4,
+    label: "2015",
+    title: "Roofing History (2015)",
+    body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ipsa sunt illum iste. Voluptatum, ducimus perspiciatis reprehenderit quod dolorum omnis, itaque pariatur minima officia libero recusandae, corrupti alias eum id?",
+    features: [
+      "Technology Management",
+      "Roofing Solutions",
+      "Modern Worker",
+      "Quick Response",
+    ],
+    img: history2015,
+  },
+  {
+    id: 5,
+    label: "2023",
+    title: "Roofing History (2023)",
+    body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe sit ab quam porro repudiandae deleniti culpa itaque voluptatem et illo. Itaque dolorum tempora ducimus autem voluptate totam ratione, officia rem!",
+    features: [
+      "Technology Management",
+      "Roofing Solutions",
+      "Modern Worker",
+      "Quick Response",
+    ],
+    img: history2023,
   },
 ];
