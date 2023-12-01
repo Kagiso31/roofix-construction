@@ -4,6 +4,7 @@ import { Checkmark } from "../../data/icons";
 
 const HistoryTabs = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
+  const tabRefs = useRef({});
 
   return (
     <div className="flex flex-col gap-8">
@@ -18,6 +19,7 @@ const HistoryTabs = () => {
               index={index}
               selectedIndex={selectedIndex}
               setSelectedIndex={setSelectedIndex}
+              tabRefs={tabRefs}
             />
           </li>
         ))}
@@ -25,6 +27,7 @@ const HistoryTabs = () => {
       <div>
         {historyTabsConfig.map((tab, index) => (
           <HistoryTabPanel
+            key={tab.id}
             tab={tab}
             index={index}
             selectedIndex={selectedIndex}
@@ -35,8 +38,14 @@ const HistoryTabs = () => {
   );
 };
 
-const HistoryTab = ({ tab, index, selectedIndex, setSelectedIndex }) => {
-  const tabRefs = useRef({});
+const HistoryTab = ({
+  tab,
+  index,
+  selectedIndex,
+  setSelectedIndex,
+  tabRefs,
+}) => {
+  const handleClick = (index) => setSelectedIndex(index);
 
   const setIndex = (index) => {
     const tab = tabRefs.current[index];
@@ -44,6 +53,7 @@ const HistoryTab = ({ tab, index, selectedIndex, setSelectedIndex }) => {
       tab.focus();
     }
   };
+
   const onKeyDown = (event) => {
     const count = historyTabsConfig.length;
     const nextTab = () => setIndex((selectedIndex + 1) % count);
@@ -64,6 +74,7 @@ const HistoryTab = ({ tab, index, selectedIndex, setSelectedIndex }) => {
       action();
     }
   };
+
   return (
     <button
       className={`relative text-center pb-6 before:absolute  before:left-0 before:right-0 before:bottom-0 before:mx-auto before:border-2  before:bg-white before:w-5 before:h-5 before:rounded-full before:transition-all before:duration-500 before:ease-in-out before:group-hover:border-accent | after:absolute  after:left-0 after:right-0 after:bottom-[5px] after:mx-auto after:w-[10px] after:h-[10px] after:rounded-full after:transition-all after:duration-500 after:ease-in-out after:group-hover:bg-accent ${
