@@ -7,6 +7,8 @@ import { Play } from "./Play";
 import { Checkmark } from "./Checkmark";
 import { Calendar } from "./Calendar";
 import { Profile } from "./Profile";
+import { Location } from "./Location";
+import { MailOutline } from "./MailOutline";
 
 export {
   ChevronRight,
@@ -18,4 +20,6 @@ export {
   Checkmark,
   Calendar,
   Profile,
+  Location,
+  MailOutline,
 };

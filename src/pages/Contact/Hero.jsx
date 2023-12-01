@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="relative h-full max-w-[1200px] px-8 xl:px-0 mx-auto">
           <div className=" flex flex-col justify-center gap-2 font-semibold text-center h-full sm:text-left">
             <h1 className="font-extrabold sm:text-[2.625rem] sm:pt-0 pt-6 text-4xl leading-tight">
-              About Our History
+              Contact Us
             </h1>
             <nav>
               <div className="space-x-2">
@@ -18,7 +18,7 @@ const Hero = () => {
                   Roofix Construction Home
                 </NavLink>
                 <span>—</span>
-                <NavLink>About</NavLink>
+                <NavLink>Contact</NavLink>
               </div>
             </nav>
           </div>

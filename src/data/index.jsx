@@ -54,6 +54,9 @@ import {
   Instagram,
   YouTube,
   Linkedin,
+  MailOutline,
+  Phone,
+  Location,
 } from "./icons";
 
 export const iconStyles = {
@@ -806,5 +809,27 @@ export const teamMembers = [
         link: "https://www.instagram.com/?—cindymoon—?",
       },
     ],
+  },
+];
+
+export const getInTouchCards = [
+  {
+    id: 1,
+    title: "Our head office address",
+    body: "Level 13, 2 Elizabeth St, Melbourne, Victoria 3000,",
+    body2: "Australia City",
+    icon: <Location className="w-[30px] h-[30px] fill-white" />,
+  },
+  {
+    id: 2,
+    title: "Mail us for information",
+    body: "info@roofing.com",
+    icon: <MailOutline className="w-[30px] h-[30px] fill-white" />,
+  },
+  {
+    id: 3,
+    title: "Emergency Phone",
+    body: "+8123 (456) 788 99",
+    icon: <Phone className="w-[30px] h-[30px] fill-white" />,
   },
 ];

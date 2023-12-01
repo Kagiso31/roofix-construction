@@ -28,7 +28,7 @@ export default {
           "roofix-construction" +
           "../../assets/home/testimonials/testimonials-bg.jpg"
         }')`,
-        "about-hero": `url('${
+        "hero-banner": `url('${
           "roofix-construction" + "../../assets/about/banner.jpg"
         }')`,
         "about-history": `url('${

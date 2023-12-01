@@ -8,6 +8,8 @@ import {
   Checkmark,
   Calendar,
   Profile,
+  MailOutline,
+  Location,
 } from "./misc";
 import { Roof1, Roof2, Roof3, Roof4, Roof5, Roof6, Roof7, Roof8 } from "./roof";
 import {
@@ -45,4 +47,6 @@ export {
   YouTube,
   Linkedin,
   Share,
+  MailOutline,
+  Location,
 };
