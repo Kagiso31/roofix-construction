@@ -1,5 +1,6 @@
 import { ChevronRight } from "./ChevronRight";
 import { ChevronDoubleRight } from "./ChevronDoubleRight";
+import { ChevronDoubleLeft } from "./ChevronDoubleLeft";
 import { Mail } from "./Mail";
 import { Map } from "./Map";
 import { Phone } from "./Phone";
@@ -9,10 +10,12 @@ import { Calendar } from "./Calendar";
 import { Profile } from "./Profile";
 import { Location } from "./Location";
 import { MailOutline } from "./MailOutline";
+import { Search } from "./Search";
 
 export {
   ChevronRight,
   ChevronDoubleRight,
+  ChevronDoubleLeft,
   Mail,
   Map,
   Phone,
@@ -22,4 +25,5 @@ export {
   Profile,
   Location,
   MailOutline,
+  Search,
 };

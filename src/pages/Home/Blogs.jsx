@@ -2,6 +2,7 @@ import { blogs } from "../../data";
 import { Calendar, Profile } from "../../data/icons";
 
 const Blogs = () => {
+  const firstThreeBlogs = blogs.splice(0, 3);
   return (
     <section className="py-28 px-8 xl:px-0 bg-[#F8F8F8]">
       <div className="flex flex-col gap-10 max-w-[1200px] mx-auto">
@@ -23,7 +24,7 @@ const Blogs = () => {
         </div>
 
         <section className="grid md+:grid-cols-auto-fit gap-8">
-          {blogs.map((blog) => (
+          {firstThreeBlogs.map((blog) => (
             <BlogCard key={blog.id} {...blog} />
           ))}
         </section>

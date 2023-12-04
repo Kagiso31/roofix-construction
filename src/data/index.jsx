@@ -589,6 +589,76 @@ export const blogs = [
     postLink: "#",
     authorLink: "#",
   },
+  {
+    id: 4,
+    img: blog1,
+    title: "10 Roof Facts You Should Know",
+    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
+    date: "18 November 2020",
+    author: "RadiusTheme",
+    postLink: "#",
+    authorLink: "#",
+  },
+  {
+    id: 5,
+    img: blog2,
+    title: "Best Roof Designs For Your Home",
+    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
+    date: "13 November 2020",
+    author: "RadiusTheme",
+    postLink: "#",
+    authorLink: "#",
+  },
+  {
+    id: 6,
+    img: blog3,
+    title: "Best Roof Designs For Your Home",
+    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
+    date: "13 November 2020",
+    author: "RadiusTheme",
+    postLink: "#",
+    authorLink: "#",
+  },
+  {
+    id: 7,
+    img: blog1,
+    title: "10 Roof Facts You Should Know",
+    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
+    date: "18 November 2020",
+    author: "RadiusTheme",
+    postLink: "#",
+    authorLink: "#",
+  },
+  {
+    id: 8,
+    img: blog2,
+    title: "Best Roof Designs For Your Home",
+    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
+    date: "13 November 2020",
+    author: "RadiusTheme",
+    postLink: "#",
+    authorLink: "#",
+  },
+  {
+    id: 9,
+    img: blog3,
+    title: "Best Roof Designs For Your Home",
+    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
+    date: "13 November 2020",
+    author: "RadiusTheme",
+    postLink: "#",
+    authorLink: "#",
+  },
+  {
+    id: 10,
+    img: blog3,
+    title: "Best Roof Designs For Your Home",
+    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
+    date: "13 November 2020",
+    author: "RadiusTheme",
+    postLink: "#",
+    authorLink: "#",
+  },
 ];
 
 export const footerLinks = [
@@ -831,5 +901,69 @@ export const getInTouchCards = [
     title: "Emergency Phone",
     body: "+8123 (456) 788 99",
     icon: <Phone className="w-[30px] h-[30px] fill-white" />,
+  },
+];
+
+export const categories = [
+  {
+    id: 1,
+    title: "Cleaning Roof",
+  },
+  {
+    id: 2,
+    title: "Modern Architecture",
+  },
+  {
+    id: 3,
+    title: "Renovation Roof",
+  },
+  {
+    id: 4,
+    title: "Roofing",
+  },
+  {
+    id: 5,
+    title: "Roofing Technology",
+  },
+];
+export const archives = [
+  {
+    id: 1,
+    title: "November 2020",
+  },
+  {
+    id: 2,
+    title: "November 2019",
+  },
+  {
+    id: 3,
+    title: "November 2018",
+  },
+];
+
+export const tags = [
+  {
+    id: 1,
+    title: "Maintenance",
+  },
+  {
+    id: 2,
+    title: "Quality",
+  },
+  {
+    id: 3,
+    title: "Repair",
+  },
+  {
+    id: 4,
+    title: "Roofix",
+  },
+  {
+    id: 5,
+    title: "Top 10",
+  },
+  {
+    id: 6,
+    title: "Best",
   },
 ];

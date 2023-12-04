@@ -5,5 +5,15 @@ import { YouTube } from "./YouTube";
 import { Instagram } from "./Instagram";
 import { Linkedin } from "./Linkedin";
 import { Share } from "./Share";
+import { Comment } from "./Comment";
 
-export { Facebook, Instagram, Pinterest, Twitter, YouTube, Linkedin, Share };
+export {
+  Facebook,
+  Instagram,
+  Pinterest,
+  Twitter,
+  YouTube,
+  Linkedin,
+  Share,
+  Comment,
+};
