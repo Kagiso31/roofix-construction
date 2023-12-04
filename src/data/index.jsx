@@ -9,12 +9,16 @@ import service4 from "../assets/home/services/roof_4.jpg";
 import service5 from "../assets/home/services/roof_5.jpg";
 import service6 from "../assets/home/services/roof_6.jpg";
 
-import project1 from "../assets/home/projects/roof-construction-residential.jpg";
-import project2 from "../assets/home/projects/roof-construction-commercial.jpg";
-import project3 from "../assets/home/projects/modern-roofing.jpg";
-import project4 from "../assets/home/projects/renovation-roof.jpg";
-import project5 from "../assets/home/projects/classic-roofing.jpg";
-import project6 from "../assets/home/projects/repair-roof.jpg";
+import project1 from "../assets/projects/all-projects/roof-construction-residential.jpg";
+import project2 from "../assets/projects/all-projects/roof-construction-commercial.jpg";
+import project3 from "../assets/projects/all-projects/modern-roofing.jpg";
+import project4 from "../assets/projects/all-projects/renovation-roof.jpg";
+import project5 from "../assets/projects/all-projects/classic-roofing.jpg";
+import project6 from "../assets/projects/all-projects/repair-roof.jpg";
+import project7 from "../assets/projects/all-projects/project-7.jpg";
+import project8 from "../assets/projects/all-projects/project-8.jpg";
+import project9 from "../assets/projects/all-projects/project-9.jpg";
+import project10 from "../assets/projects/all-projects/project-10.jpg";
 
 import pricing1 from "../assets/home/pricing-plans/price_bg1.jpg";
 import pricing2 from "../assets/home/pricing-plans/price_bg2.jpg";
@@ -477,6 +481,34 @@ export const projects = [
     title: "Repair Roof",
     tags: ["Interior", "Residential"],
     img: project6,
+    link: "#",
+  },
+  {
+    id: 7,
+    title: "Modern Roofing",
+    tags: ["Commercial", "Residential"],
+    img: project7,
+    link: "#",
+  },
+  {
+    id: 8,
+    title: "Renovation Roof",
+    tags: ["Commercial", "Residential"],
+    img: project8,
+    link: "#",
+  },
+  {
+    id: 9,
+    title: "Classic Roofing",
+    tags: ["Interior"],
+    img: project9,
+    link: "#",
+  },
+  {
+    id: 10,
+    title: "Repair Roof",
+    tags: ["Interior", "Residential"],
+    img: project10,
     link: "#",
   },
 ];

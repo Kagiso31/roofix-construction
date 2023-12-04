@@ -1,6 +1,9 @@
-import ProjectsTabs from "./ProjectsTabs";
+import { useState } from "react";
+import ProjectsTabs from "../../components/ProjectTabs";
+import { projects, projectsTabs } from "../../data";
 
 const Projects = () => {
+  const [recentProjects] = useState(projects.slice(0, 6));
   return (
     <section className="py-28 px-8 xl:px-0">
       <div className="flex flex-col gap-10 max-w-[1200px] mx-auto">
@@ -20,7 +23,7 @@ const Projects = () => {
         </div>
 
         {/* Tabs */}
-        <ProjectsTabs />
+        <ProjectsTabs projects={recentProjects} projectsTabs={projectsTabs} />
       </div>
     </section>
   );

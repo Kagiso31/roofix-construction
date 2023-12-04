@@ -1,5 +1,13 @@
+import Hero from "./Hero";
+import ProjectsContent from "./ProjectsContent";
+
 const Projects = () => {
-  return <div>Projects</div>;
+  return (
+    <main>
+      <Hero />
+      <ProjectsContent />
+    </main>
+  );
 };
 
 export default Projects;

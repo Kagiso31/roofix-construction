@@ -1,7 +1,6 @@
 import { useState } from "react";
-import { projects, projectsTabs } from "../../data";
 
-const ProjectsTabs = () => {
+const ProjectTabs = ({ projects, projectsTabs }) => {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [activeTab, setActiveTab] = useState("All Projects");
 
@@ -77,4 +76,4 @@ const ProjectCard = ({ title, img, tags, link }) => {
   );
 };
 
-export default ProjectsTabs;
+export default ProjectTabs;
