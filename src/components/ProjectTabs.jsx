@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const ProjectTabs = ({ projects, projectsTabs }) => {
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -60,7 +61,7 @@ const ProjectCard = ({ title, img, tags, link }) => {
             {tags.map((tag, index) => (
               <a
                 key={index}
-                href={link}
+                href="#"
                 className="hover:text-accent transition-all duration-300 ease-in-out"
               >
                 {index !== tags.length - 1 ? `${tag}, ` : `${tag}`}
@@ -68,7 +69,9 @@ const ProjectCard = ({ title, img, tags, link }) => {
             ))}
           </strong>
           <h3 className="relative font-bold text-2xl ps-4 transition-all duration-300 ease-in-out hover:text-accent before:absolute before:top-0 before:left-0 before:bg-accent before:h-4 before:w-1 before:translate-y-1/2">
-            <a href={link}>{title}</a>
+            <NavLink to={`/roofix-construction/projects/${link}`}>
+              {title}
+            </NavLink>
           </h3>
         </div>
       </div>

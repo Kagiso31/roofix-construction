@@ -11,6 +11,7 @@ import About from "./pages/About";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
+import Project from "./pages/Project";
 import TeamMember from "./pages/TeamMember";
 
 // layout
@@ -24,7 +25,10 @@ const router = createBrowserRouter(
       <Route path="about" element={<About />} />
       <Route path=":name" element={<TeamMember />} />
 
-      <Route path="projects" element={<Projects />} />
+      <Route path="projects">
+        <Route index element={<Projects />} />
+        <Route path=":name" element={<Project />} />
+      </Route>
       <Route path="blog" element={<Blog />} />
       <Route path="contact" element={<Contact />} />
     </Route>

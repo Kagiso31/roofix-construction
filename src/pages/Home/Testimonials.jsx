@@ -8,7 +8,7 @@ import { Navigation } from "swiper/modules";
 
 const Testimonials = () => {
   return (
-    <section className="testimonials bg-testimonials text-[#C3C3C3] py-[120px] select-none">
+    <section className="testimonials custom-nav bg-testimonials text-[#C3C3C3] py-[120px] select-none">
       <div className="max-w-[1200px] mx-auto ">
         <Swiper
           grabCursor={true}
