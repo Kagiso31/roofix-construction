@@ -1,5 +1,6 @@
 import { teamMembers } from "../../data";
 import { Share } from "../../data/icons";
+import { NavLink } from "react-router-dom";
 
 const Team = () => {
   return (
@@ -48,7 +49,7 @@ const CardPattern = (
   </svg>
 );
 
-const TeamCard = ({ name, role, img, href, socials }) => {
+const TeamCard = ({ name, role, img, path, socials }) => {
   const transitionDelays = [
     "delay-[0.6s]",
     "delay-[0.5s]",
@@ -70,9 +71,12 @@ const TeamCard = ({ name, role, img, href, socials }) => {
       <div className="absolute bottom-0 left-0 right-0">
         <div className="my-0 flex flex-col p-6 bg-accent">
           <div className="text-2xl font-extrabold">
-            <a href={href} className="block  max-w-[8ch] sm:max-w-none">
+            <NavLink
+              to={`/roofix-construction/${path}`}
+              className="block max-w-[8ch] sm:max-w-none"
+            >
               {name}
-            </a>
+            </NavLink>
           </div>
           <div className="text-[0.9375rem]">{role}</div>
         </div>
@@ -91,9 +95,7 @@ const TeamCard = ({ name, role, img, href, socials }) => {
               key={social.id}
               href={social.link}
               target="_blank"
-              className={`group w-[52px] h-[52px] rounded-full bg-white grid place-content-center opacity-0 group-hover/share:opacity-100 transition-all duration-300 delay ${
-                transitionDelays[index + 1]
-              }`}
+              className={`group w-[52px] h-[52px] rounded-full bg-white grid place-content-center opacity-0 group-hover/share:opacity-100 transition-all duration-300 delay ${transitionDelays[index]}`}
             >
               {social.icon}
             </a>

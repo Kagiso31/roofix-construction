@@ -830,7 +830,42 @@ export const teamMembers = [
     name: "Elizabeth Allan",
     role: "CEO, Roofix",
     img: team1,
-    href: "#",
+    path: "elizabeth-allan",
+    phoneNumber: "+880 102 346 4887",
+    email: "info@roofix.com",
+    bio: "Forem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempincididunt ut labore et dolore magna aliqua.Ut enim ad minim venostrud exercitation ullamco labori.",
+    expertise: [
+      "Acepteur sintas haecat sed non duiy",
+      "Proident sunt culpa sed ipsum tempor sed",
+      "Ut enim ad minim veniam",
+    ],
+    education: [
+      "MBA, Rotterdam School of Management, Erasmus University",
+      "BS, engineering, Technical University of Denmark",
+      "BS, engineering, Technical University of Denmark",
+    ],
+    skills: [
+      {
+        id: 1,
+        title: "Experience",
+        percentage: 92,
+      },
+      {
+        id: 2,
+        title: "Conversion",
+        percentage: 50,
+      },
+      {
+        id: 3,
+        title: "Relations",
+        percentage: 50,
+      },
+      {
+        id: 4,
+        title: "Clients",
+        percentage: 89,
+      },
+    ],
     socials: [
       {
         ...socials.facebook,
@@ -859,7 +894,42 @@ export const teamMembers = [
     name: "Benjamin Reilly",
     role: "COO, Roofix",
     img: team2,
-    href: "#",
+    path: "benjamin-reilly",
+    phoneNumber: "+880 102 346 4887",
+    email: "info@roofix.com",
+    bio: "Forem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempincididunt ut labore et dolore magna aliqua.Ut enim ad minim venostrud exercitation ullamco labori.",
+    expertise: [
+      "Acepteur sintas haecat sed non duiy",
+      "Proident sunt culpa sed ipsum tempor sed",
+      "Ut enim ad minim veniam",
+    ],
+    education: [
+      "MBA, Rotterdam School of Management, Erasmus University",
+      "BS, engineering, Technical University of Denmark",
+      "BS, engineering, Technical University of Denmark",
+    ],
+    skills: [
+      {
+        id: 1,
+        title: "Experience",
+        percentage: 92,
+      },
+      {
+        id: 2,
+        title: "Conversion",
+        percentage: 50,
+      },
+      {
+        id: 3,
+        title: "Relations",
+        percentage: 50,
+      },
+      {
+        id: 4,
+        title: "Clients",
+        percentage: 89,
+      },
+    ],
     socials: [
       {
         ...socials.facebook,
@@ -888,7 +958,42 @@ export const teamMembers = [
     name: "Cindy Moon",
     role: "CFO, Roofix",
     img: team3,
-    href: "#",
+    path: "cindy-moon",
+    phoneNumber: "+880 102 346 4887",
+    email: "info@roofix.com",
+    bio: "Forem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempincididunt ut labore et dolore magna aliqua.Ut enim ad minim venostrud exercitation ullamco labori.",
+    expertise: [
+      "Acepteur sintas haecat sed non duiy",
+      "Proident sunt culpa sed ipsum tempor sed",
+      "Ut enim ad minim veniam",
+    ],
+    education: [
+      "MBA, Rotterdam School of Management, Erasmus University",
+      "BS, engineering, Technical University of Denmark",
+      "BS, engineering, Technical University of Denmark",
+    ],
+    skills: [
+      {
+        id: 1,
+        title: "Experience",
+        percentage: 92,
+      },
+      {
+        id: 2,
+        title: "Conversion",
+        percentage: 50,
+      },
+      {
+        id: 3,
+        title: "Relations",
+        percentage: 50,
+      },
+      {
+        id: 4,
+        title: "Clients",
+        percentage: 89,
+      },
+    ],
     socials: [
       {
         ...socials.facebook,

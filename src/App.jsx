@@ -11,6 +11,7 @@ import About from "./pages/About";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
+import TeamMember from "./pages/TeamMember";
 
 // layout
 import RootLayout from "./layout/RootLayout";
@@ -19,7 +20,10 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/roofix-construction" element={<RootLayout />}>
       <Route index element={<Home />} />
+
       <Route path="about" element={<About />} />
+      <Route path=":name" element={<TeamMember />} />
+
       <Route path="projects" element={<Projects />} />
       <Route path="blog" element={<Blog />} />
       <Route path="contact" element={<Contact />} />
