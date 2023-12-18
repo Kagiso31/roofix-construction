@@ -7,7 +7,7 @@ import { Phone } from "../../data/icons";
 
 const GetToKnow = () => {
   return (
-    <section className="py-28 px-8 xl:px-0">
+    <section className="py-28 px-8 xl:px-0 bg-get-to-know bg-no-repeat bg-[bottom_center]">
       <div className="max-w-[1200px] mx-auto grid xl:grid-cols-2 gap-12">
         <div className="md+:ps-4 md+:pe-12 flex flex-col gap-8">
           <div className="space-y-2">

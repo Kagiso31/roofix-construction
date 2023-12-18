@@ -2,7 +2,7 @@ import Tabs from "./ServicesTabs";
 
 const Services = () => {
   return (
-    <section className="text-white bg-black py-28 px-8 xl:px-0">
+    <section className="text-white bg-[#242424] bg-services bg-[bottom_center] bg-no-repeat py-28 px-8 xl:px-0">
       <div className="flex flex-col gap-10 max-w-[1200px] mx-auto">
         <div className="grid place-items-end gap-8 md+:grid-cols-2">
           <div className="space-y-5">

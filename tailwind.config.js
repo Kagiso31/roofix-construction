@@ -13,6 +13,12 @@ export default {
         "feature-icon": "0px 21px 32px 0px #ee212b54",
       },
       backgroundImage: {
+        "get-to-know": `url('${
+          "roofix-construction" + "../../assets/patterns/get-to-know.jpg"
+        }')`,
+        services: `url('${
+          "roofix-construction" + "../../assets/patterns/services.png"
+        }')`,
         "gradient-270": "linear-gradient(270deg, var(--tw-gradient-stops))",
         statistics: `url('${
           "roofix-construction" + "../../assets/home/statistics/statistics.jpg"
@@ -28,6 +34,9 @@ export default {
           "roofix-construction" +
           "../../assets/home/testimonials/testimonials-bg.jpg"
         }')`,
+        blogs: `url('${
+          "roofix-construction" + "../../assets/patterns/blogs.png"
+        }')`,
         "hero-banner": `url('${
           "roofix-construction" + "../../assets/about/banner.jpg"
         }')`,
@@ -36,6 +45,9 @@ export default {
         }')`,
         "about-timeline": `url('${
           "roofix-construction" + "../../assets/about/history/timeline.png"
+        }')`,
+        contact: `url('${
+          "roofix-construction" + "../../assets/patterns/contact-bg.png"
         }')`,
       },
       gridTemplateColumns: {

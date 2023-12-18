@@ -1,9 +1,15 @@
 import { pricingPlans } from "../../data";
 import { Checkmark } from "../../data/icons";
+import pricingPlansBg from "../../assets/patterns/pricing-plans.png";
 
 const PricingPlans = () => {
   return (
-    <section className="py-28 px-8 xl:px-0 bg-[#F8F8F8]">
+    <section className="py-28 px-8 xl:px-0 bg-[#F8F8F8] relative">
+      <img
+        src={pricingPlansBg}
+        className="absolute -scale-x-100 top-0 right-0"
+      />
+      <img src={pricingPlansBg} className="absolute bottom-0 left-0" />
       <div className="flex flex-col gap-10 max-w-[1200px] mx-auto">
         <div className="grid gap-8 md+:grid-cols-2 md+:justify-start md+:items-end">
           <div className="space-y-5">

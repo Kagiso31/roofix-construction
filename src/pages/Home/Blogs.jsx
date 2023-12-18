@@ -4,7 +4,7 @@ import { Calendar, Profile } from "../../data/icons";
 
 const Blogs = () => {
   return (
-    <section className="py-28 px-8 xl:px-0 bg-[#F8F8F8]">
+    <section className="py-28 px-8 xl:px-0 bg-[#FAFAFA] bg-blogs bg-no-repeat bg-[bottom_right]">
       <div className="flex flex-col gap-10 max-w-[1200px] mx-auto">
         <div className="grid gap-8 md+:grid-cols-2 md+:justify-start md+:items-end">
           <div className="space-y-5">

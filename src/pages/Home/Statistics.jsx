@@ -1,9 +1,14 @@
 import { Play, Roof1, Roof6 } from "../../data/icons";
 import statisticsImg from "../../assets/home/statistics/statistics.jpg";
+import statisticsPattern from "../../assets/patterns/statistics.png";
 
 const Statistics = () => {
   return (
     <section className="isolate relative bg-none lg:bg-statistics  bg-accent text-white bg-no-repeat bg-right bg-contain lg:after:bg-accent lg:after:absolute lg:after:-z-10 lg:after:top-0 lg:after:left-0 lg:after:h-full lg:after:w-[57%] lg:after:[clip-path:polygon(0_0,90%_0%,80%_100%,0_100%)]">
+      <img
+        src={statisticsPattern}
+        className="absolute top-0 left-0 lg:bottom-0 lg:top-auto"
+      />
       <div className="max-w-[1200px] mx-auto flex flex-col gap-12 lg:grid lg:grid-cols-2">
         <div className="flex flex-col gap-8 py-16 px-8 xl:px-0">
           <h2 className="font-extrabold text-4xl">
