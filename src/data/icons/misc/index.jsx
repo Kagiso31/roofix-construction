@@ -1,6 +1,7 @@
 import { ChevronRight } from "./ChevronRight";
 import { ChevronDoubleRight } from "./ChevronDoubleRight";
 import { ChevronDoubleLeft } from "./ChevronDoubleLeft";
+import { ChevronDoubleUp } from "./ChevronDoubleUp";
 import { Mail } from "./Mail";
 import { Map } from "./Map";
 import { Phone } from "./Phone";
@@ -19,6 +20,7 @@ export {
   ChevronRight,
   ChevronDoubleRight,
   ChevronDoubleLeft,
+  ChevronDoubleUp,
   Mail,
   Map,
   Phone,
