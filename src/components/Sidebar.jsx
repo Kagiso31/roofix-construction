@@ -1,10 +1,10 @@
-import { archives, categories, tags } from "../../data";
-import { Search } from "../../data/icons";
-import ad from "../../assets/blog/ad.png";
+import { archives, categories, tags } from "../data";
+import { Search } from "../data/icons";
+import ad from "../assets/blog/ad.png";
 
 const Sidebar = () => {
   return (
-    <aside className="flex-auto basis-1/3 sm:min-w-[35ch] md+:pe-11 space-y-10">
+    <aside className=" flex-auto basis-1/3 pb-11 sm:min-w-[35ch] md+:pe-11 space-y-10">
       <form>
         <div className="flex items-center shadow-md bg-white rounded border border-[#e1e1e1]">
           <input

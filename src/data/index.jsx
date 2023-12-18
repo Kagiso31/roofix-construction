@@ -31,6 +31,7 @@ import testimonial3 from "../assets/home/testimonials/testimonial-3.jpg";
 import blog1 from "../assets/home/blogs/blog1.jpg";
 import blog2 from "../assets/home/blogs/blog2.jpg";
 import blog3 from "../assets/home/blogs/blog3.jpg";
+import authorImg from "../assets/blog/radiustheme_profile.png";
 
 import history1988 from "../assets/about/history/1988.jpg";
 import history2000 from "../assets/about/history/2000.jpg";
@@ -728,102 +729,252 @@ export const blogs = [
   {
     id: 1,
     img: blog1,
+    gallery: [project1, project2],
     title: "10 Roof Facts You Should Know",
-    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
+    body1:
+      "Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when anunknown print theyaery ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries year areatry eremaining essentially.Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when ook a galley of type and scrambled it to make a type specimen.",
+    body2:
+      "Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when anunknown print theyaery ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries year areatry eremaining essentially.Roof ake type specimen book survived.",
+    body3:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    body4:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+    body5:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    summary:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
     date: "18 November 2020",
     author: "RadiusTheme",
-    postLink: "#",
+    authorImg: authorImg,
+    comments: [""],
+    postLink: "/roofix-construction/blog/1",
     authorLink: "#",
+    tags: ["Maintenance", "Quality", "Repair", "Roofix"],
   },
   {
     id: 2,
     img: blog2,
+    gallery: [project2, project3],
     title: "Best Roof Designs For Your Home",
-    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
+    body1:
+      "Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when anunknown print theyaery ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries year areatry eremaining essentially.Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when ook a galley of type and scrambled it to make a type specimen.",
+    body2:
+      "Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when anunknown print theyaery ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries year areatry eremaining essentially.Roof ake type specimen book survived.",
+    body3:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    body4:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+    body5:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    summary:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
     date: "13 November 2020",
     author: "RadiusTheme",
-    postLink: "#",
+    authorImg: authorImg,
+    comments: [""],
+    postLink: "/roofix-construction/blog/2",
     authorLink: "#",
+    tags: ["Maintenance", "Quality", "Repair", "Roofix"],
   },
   {
     id: 3,
     img: blog3,
+    gallery: [project3, project4],
     title: "Best Roof Designs For Your Home",
-    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
+    body1:
+      "Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when anunknown print theyaery ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries year areatry eremaining essentially.Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when ook a galley of type and scrambled it to make a type specimen.",
+    body2:
+      "Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when anunknown print theyaery ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries year areatry eremaining essentially.Roof ake type specimen book survived.",
+    body3:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    body4:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+    body5:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    summary:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
     date: "13 November 2020",
     author: "RadiusTheme",
-    postLink: "#",
+    authorImg: authorImg,
+    comments: [""],
+    postLink: "/roofix-construction/blog/3",
     authorLink: "#",
+    tags: ["Maintenance", "Quality", "Repair", "Roofix"],
   },
   {
     id: 4,
     img: blog1,
+    gallery: [project4, project5],
     title: "10 Roof Facts You Should Know",
-    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
+    body1:
+      "Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when anunknown print theyaery ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries year areatry eremaining essentially.Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when ook a galley of type and scrambled it to make a type specimen.",
+    body2:
+      "Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when anunknown print theyaery ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries year areatry eremaining essentially.Roof ake type specimen book survived.",
+    body3:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    body4:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+    body5:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    summary:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
     date: "18 November 2020",
     author: "RadiusTheme",
-    postLink: "#",
+    authorImg: authorImg,
+    comments: [""],
+    postLink: "/roofix-construction/blog/4",
     authorLink: "#",
+    tags: ["Maintenance", "Quality", "Repair", "Roofix"],
   },
   {
     id: 5,
     img: blog2,
+    gallery: [project5, project6],
     title: "Best Roof Designs For Your Home",
-    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
+    body1:
+      "Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when anunknown print theyaery ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries year areatry eremaining essentially.Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when ook a galley of type and scrambled it to make a type specimen.",
+    body2:
+      "Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when anunknown print theyaery ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries year areatry eremaining essentially.Roof ake type specimen book survived.",
+    body3:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    body4:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+    body5:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    summary:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
     date: "13 November 2020",
     author: "RadiusTheme",
-    postLink: "#",
+    authorImg: authorImg,
+    comments: [""],
+    postLink: "/roofix-construction/blog/5",
     authorLink: "#",
+    tags: ["Maintenance", "Quality", "Repair", "Roofix"],
   },
   {
     id: 6,
     img: blog3,
+    gallery: [project6, project7],
     title: "Best Roof Designs For Your Home",
-    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
+    body1:
+      "Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when anunknown print theyaery ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries year areatry eremaining essentially.Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when ook a galley of type and scrambled it to make a type specimen.",
+    body2:
+      "Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when anunknown print theyaery ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries year areatry eremaining essentially.Roof ake type specimen book survived.",
+    body3:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    body4:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+    body5:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    summary:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
     date: "13 November 2020",
     author: "RadiusTheme",
-    postLink: "#",
+    authorImg: authorImg,
+    comments: [""],
+    postLink: "/roofix-construction/blog/6",
     authorLink: "#",
+    tags: ["Maintenance", "Quality", "Repair", "Roofix"],
   },
   {
     id: 7,
     img: blog1,
+    gallery: [project7, project8],
     title: "10 Roof Facts You Should Know",
-    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
+    body1:
+      "Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when anunknown print theyaery ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries year areatry eremaining essentially.Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when ook a galley of type and scrambled it to make a type specimen.",
+    body2:
+      "Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when anunknown print theyaery ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries year areatry eremaining essentially.Roof ake type specimen book survived.",
+    body3:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    body4:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+    body5:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    summary:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
     date: "18 November 2020",
     author: "RadiusTheme",
-    postLink: "#",
+    authorImg: authorImg,
+    comments: [""],
+    postLink: "/roofix-construction/blog/7",
     authorLink: "#",
+    tags: ["Maintenance", "Quality", "Repair", "Roofix"],
   },
   {
     id: 8,
     img: blog2,
+    gallery: [project8, project9],
     title: "Best Roof Designs For Your Home",
-    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
+    body1:
+      "Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when anunknown print theyaery ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries year areatry eremaining essentially.Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when ook a galley of type and scrambled it to make a type specimen.",
+    body2:
+      "Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when anunknown print theyaery ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries year areatry eremaining essentially.Roof ake type specimen book survived.",
+    body3:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    body4:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+    body5:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    summary:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
     date: "13 November 2020",
     author: "RadiusTheme",
-    postLink: "#",
+    authorImg: authorImg,
+    comments: [""],
+    postLink: "/roofix-construction/blog/8",
     authorLink: "#",
+    tags: ["Maintenance", "Quality", "Repair", "Roofix"],
   },
   {
     id: 9,
     img: blog3,
+    gallery: [project9, project10],
     title: "Best Roof Designs For Your Home",
-    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
+    body1:
+      "Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when anunknown print theyaery ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries year areatry eremaining essentially.Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when ook a galley of type and scrambled it to make a type specimen.",
+    body2:
+      "Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when anunknown print theyaery ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries year areatry eremaining essentially.Roof ake type specimen book survived.",
+    body3:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    body4:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+    body5:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    summary:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
     date: "13 November 2020",
     author: "RadiusTheme",
-    postLink: "#",
+    authorImg: authorImg,
+    comments: [""],
+    postLink: "/roofix-construction/blog/9",
     authorLink: "#",
+    tags: ["Maintenance", "Quality", "Repair", "Roofix"],
   },
   {
     id: 10,
     img: blog3,
+    gallery: [project10, project1],
     title: "Best Roof Designs For Your Home",
-    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
+    body1:
+      "Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when anunknown print theyaery ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries year areatry eremaining essentially.Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when ook a galley of type and scrambled it to make a type specimen.",
+    body2:
+      "Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when anunknown print theyaery ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries year areatry eremaining essentially.Roof ake type specimen book survived.",
+    body3:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    body4:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+    body5:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    summary:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sequi reiciendis id ullam adipisci laudantium, doloribus praesentium atque...",
     date: "13 November 2020",
     author: "RadiusTheme",
-    postLink: "#",
+    authorImg: authorImg,
+    comments: [""],
+    postLink: "/roofix-construction/blog/10",
     authorLink: "#",
+    tags: ["Maintenance", "Quality", "Repair", "Roofix"],
   },
 ];
 

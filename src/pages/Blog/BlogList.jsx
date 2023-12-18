@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { blogs } from "../../data";
 import { ChevronDoubleRight, ChevronDoubleLeft } from "../../data/icons";
-import { Profile, Calendar, Comment } from "../../data/icons";
 import ReactPaginate from "react-paginate";
+import BlogPost from "./BlogPost";
 
-const Blogs = () => {
+const BlogList = () => {
   const [blogPosts] = useState(blogs);
   const [pageNumber, setPageNumber] = useState(0);
 
@@ -42,44 +42,4 @@ const Blogs = () => {
   );
 };
 
-const BlogPost = ({ img, title, body, date, author, postLink, authorLink }) => {
-  return (
-    <article className="bg-white rounded-md shadow-lg p-8">
-      <div className="grid sm:grid-cols-2 items-center gap-[30px]">
-        <div className="blog-card-header relative overflow-hidden flex-auto basis-1/3">
-          <img className="w-full rounded-t-md" src={img} />
-        </div>
-
-        <div className="flex-auto basis-2/3 grid gap-3">
-          <p className="flex items-center gap-1 font-medium text-[0.9375rem] text-[#7b7b7b]">
-            <Calendar className="w-[14px] h-[14px] fill-accent" />
-            {date}
-          </p>
-          <h3 className="font-extrabold text-2xl transition-all duration-500 ease-in-out hover:text-accent">
-            <a href={postLink}>{title}</a>
-          </h3>
-          <p className="text-[#707173]">{body}</p>
-
-          <div className="flex justify-between">
-            <p className="flex items-center gap-2 font-medium text-[0.9375rem] text-[#7b7b7b]">
-              <Profile className="w-[14px] h-[14px] fill-accent" />
-              <a
-                title={`Post by ${author}`}
-                href={authorLink}
-                className="transition-all duration-500 ease-in-out hover:text-accent"
-              >
-                {author}
-              </a>
-            </p>
-            <a className="group flex items-center gap-1">
-              <Comment className="w-[14px] h-[14px] fill-accent group-hover:fill-[#d21c1d]" />
-              <span className="group-hover:text-[#d21c1d]">0</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </article>
-  );
-};
-
-export default Blogs;
+export default BlogList;

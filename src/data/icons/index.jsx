@@ -13,6 +13,8 @@ import {
   Location,
   Search,
   Star,
+  Tags,
+  ArrowLeft,
 } from "./misc";
 import { Roof1, Roof2, Roof3, Roof4, Roof5, Roof6, Roof7, Roof8 } from "./roof";
 import {
@@ -57,4 +59,6 @@ export {
   Location,
   Search,
   Star,
+  Tags,
+  ArrowLeft,
 };

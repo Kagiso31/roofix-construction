@@ -9,6 +9,7 @@ import {
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 import Project from "./pages/Project";
@@ -29,7 +30,10 @@ const router = createBrowserRouter(
         <Route index element={<Projects />} />
         <Route path=":name" element={<Project />} />
       </Route>
-      <Route path="blog" element={<Blog />} />
+      <Route path="blog">
+        <Route index element={<Blog />} />
+        <Route path=":id" element={<BlogPost />} />
+      </Route>
       <Route path="contact" element={<Contact />} />
     </Route>
   )

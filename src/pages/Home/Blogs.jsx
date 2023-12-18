@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import { blogs } from "../../data";
 import { Calendar, Profile } from "../../data/icons";
 
@@ -32,7 +33,15 @@ const Blogs = () => {
   );
 };
 
-const BlogCard = ({ title, body, date, author, img, postLink, authorLink }) => {
+const BlogCard = ({
+  title,
+  summary,
+  date,
+  author,
+  img,
+  postLink,
+  authorLink,
+}) => {
   return (
     <div className="bg-white rounded-md shadow-sm">
       <div className="blog-card-header relative overflow-hidden">
@@ -52,9 +61,9 @@ const BlogCard = ({ title, body, date, author, img, postLink, authorLink }) => {
           </p>
         </div>
         <h3 className="font-bold text-2xl transition-all duration-500 ease-in-out hover:text-accent">
-          <a href={postLink}>{title}</a>
+          <NavLink to={postLink}>{title}</NavLink>
         </h3>
-        <p className="text-[#707173]">{body}</p>
+        <p className="text-[#707173]">{summary}</p>
       </div>
     </div>
   );

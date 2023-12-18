@@ -12,6 +12,8 @@ import { Location } from "./Location";
 import { MailOutline } from "./MailOutline";
 import { Search } from "./Search";
 import { Star } from "./Star";
+import { Tags } from "./Tags";
+import { ArrowLeft } from "./ArrowLeft";
 
 export {
   ChevronRight,
@@ -28,4 +30,6 @@ export {
   MailOutline,
   Search,
   Star,
+  Tags,
+  ArrowLeft,
 };
