@@ -22,7 +22,7 @@ const ScrollToTopButton = () => {
     <>
       {showButton && (
         <button
-          className="grid place-content-center fixed bottom-5 right-5 h-10 w-10 bg-[#111111cc] rounded-full "
+          className="grid place-content-center fixed bottom-10 right-5 h-10 w-10 bg-[#111111cc] rounded-full z-10"
           onClick={scrollToTop}
         >
           <ChevronDoubleUp className="w-4 h-4 fill-white" />
